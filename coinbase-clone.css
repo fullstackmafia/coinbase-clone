@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.coinbase__alpha {
+    background-color: #24589F;
+    padding-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+
+}
+
+.coinbase__alpha__header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+@media only screen 
+and (max-width : 510px)  {
+.coinbase__alpha__header {
+    display: block;
+    width: 90%;
+    }
+}
+
+.coinbase__alpha__logo {
+    float: left;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 22px;   
+    margin-left: 3em;    
+}
+
+@media only screen 
+and (max-width : 510px)  {
+.coinbase__alpha__logo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    }
+}
+
+.coinbase__alpha__list {
+    display: flex;
+    margin: 0;
+}
+
+@media only screen 
+and (max-width : 510px)  {
+.coinbase__alpha__list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    }
+}
+
+
+.coinbase__alpha__list p {
+    font-family: 'Lato', sans-serif;
+    margin-top: 2.03em;
+    font-size: 14px;
+}
+
+.coinbase__alpha__list__products {
+    margin: 1.7em 0em 0em 0em;
+    font-family: 'Lato', sans-serif;
+}
+
+.alpha__list__products--button {
+    background-color: #24589F;
+    color: white;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.list__products__content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.list__products__content a {
+    color: black;
+    padding: 12px 16px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.list__products__content a:hover {
+    background-color: #f1f1f1
+}
+
+.coinbase__alpha__list__products:hover .list__products__content {
+    display: block;
+    margin-top: 2px;
+    line-height: 5px;
+}
+
+@media only screen 
+and (max-width : 510px)  {
+.coinbase__alpha__list__products:hover .list__products__content {
+    display: block;
+    margin-top: 15px;
+}
+}
+
+.list__svgimage {
+    width: 0.5em; 
+}
+
+.list__products__svgimage {
+    width: 1.4em;
+    float: right
+}
+
+.coinbase__alpha__list__help {
+   margin: 1em;
+   color: #FFFFFF;
+}
+
+.coinbase__alpha__list__btcprice {
+   margin: 1em;
+   color: #FFFFFF;
+   word-spacing: 0.1em;
+}
+
+.coinbase__alpha__list__signin {
+   margin: 1em;
+   color: #FFFFFF;
+}
+
+.coinbase__alpha__list__signup {
+   margin: 1em;
+   color: #FFFFFF;
+   padding: 10px;
+   border: 2px solid #FFFFFF;
+   font-family: 'Lato', sans-serif;
+}
+
+.coinbase__alpha__buyandsell__h1 {
+   color: #FFFFFF;
+    font-family: 'Lato' , sans-serif;
+    word-spacing: 0.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 2.5em;
+    width: 100% 
+}
+
+.coinbase__alpha__buyandsell__p {
+   color: #FFFFFF;
+    font-family: 'Lato' , sans-serif;
+    word-spacing: 0.1em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 900;
+    margin-top: 0.2em;
+    line-height: 1.5em;
+    width: 100%
+}
+
+.coinbase__alpha__email--cover {
+   width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen 
+and (max-width : 510px)  {
+.coinbase__alpha__email {
+    width: 90%;
+    }
+}
+
+@media only screen 
+and (min-width : 510px)  {
+.coinbase__alpha__email {
+    width: 400px;
+    }
+}
+
+.coinbase__alpha__email {
+  display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    background-color: 0F2560;
+    border-radius: 10px;
+}
+
+.coinbase__alpha__enteryouremail {
+ width: 100%;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-color: #0F2560;
+    font-family: 'Lato', sans-serif;
+}
+
+.coinbase__alpha__getstarted {
+  color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    padding: 15px;
+    margin: 0px 0px 0px 15px;
+    background-color: #24589F;
+    border-radius: 5px;
+    width: 53%;
+}
+
+.coinbase__alpha__newbitcoinethereum {
+  color: #FAFAFA;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.3px;
+    padding: 15px;
+    background-color: #24589F;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    width: 20vw;
+    margin-left: 10em;
+    margin-right: 10em;
+    word-spacing: 0.3em;
+}
+
+@media only screen 
+and (max-width : 510px)  {
+.coinbase__alpha__newbitcoinethereum {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+    }
+}
